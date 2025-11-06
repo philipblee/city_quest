@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collectibles - CityQuest</title>
+    <meta name="description" content="Discover collectible People, Places, Events, and Things cards through CityQuest tours. Build your historical collection across cities worldwide.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🏛️ CityQuest</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="tours.html" class="nav-link">Cities & Tours</a></li>
+                <li><a href="collectibles.html" class="nav-link active">Collectibles</a></li>
+                <li><a href="how-it-works.html" class="nav-link">How It Works</a></li>
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Explore, Discover, Remember</h1>
+            <p>Document your urban exploration journey with personal memories and discoveries from the world's greatest cities</p>
+        </div>
+    </header>
+
+    <!-- Exploration & Memory Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>How Exploration Becomes Memory</h2>
+                <p>Discover fascinating stories, take meaningful photos, and build your personal journal of urban exploration</p>
+            </div>
+
+            <div style="max-width: 1000px; margin: 0 auto;">
+                <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); margin-bottom: 3rem;">
+                    <h3 style="text-align: center; margin-bottom: 2rem;">Your Exploration Journey</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                        <div style="text-align: center;">
+                            <div style="background: #6366f1; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">🗺️</div>
+                            <h4>1. Explore</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Walk to historic locations, experience rich content, chat with AI figures</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="background: #10b981; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">📸</div>
+                            <h4>2. Document</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Take 1-3 photos, choose your thumbnail, add optional captions</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="background: #f59e0b; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">💭</div>
+                            <h4>3. Reflect</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Choose your feeling, add personal memory sentence</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="background: #ef4444; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">🎯</div>
+                            <h4>4. Collect</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Add to your exploration journal with significance categories</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card" style="text-align: center; border: 3px solid #6366f1;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">👤</div>
+                    <h3 style="color: #6366f1;">People</h3>
+                    <p>Historical figures, inventors, artists, and cultural icons who shaped each city's identity.</p>
+                    <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
+                        <strong>Boston Examples:</strong><br>
+                        Paul Revere • Ben Franklin • John Adams • Alexander Graham Bell
+                    </div>
+                </div>
+
+                <div class="content-card" style="text-align: center; border: 3px solid #10b981;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">📍</div>
+                    <h3 style="color: #10b981;">Places</h3>
+                    <p>Iconic landmarks, neighborhoods, buildings, and geographical features with historical significance.</p>
+                    <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
+                        <strong>Boston Examples:</strong><br>
+                        Faneuil Hall • Boston Common • Charles River • Beacon Hill
+                    </div>
+                </div>
+
+                <div class="content-card" style="text-align: center; border: 3px solid #f59e0b;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">📅</div>
+                    <h3 style="color: #f59e0b;">Events</h3>
+                    <p>Pivotal moments, cultural celebrations, and historical milestones that defined each city's story.</p>
+                    <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
+                        <strong>Boston Examples:</strong><br>
+                        Boston Tea Party • First Subway • Boston Marathon • Public Anesthesia Demo
+                    </div>
+                </div>
+
+                <div class="content-card" style="text-align: center; border: 3px solid #ef4444;">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">🔧</div>
+                    <h3 style="color: #ef4444;">Things</h3>
+                    <p>Inventions, innovations, cultural artifacts, and unique creations that originated in each city.</p>
+                    <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
+                        <strong>Boston Examples:</strong><br>
+                        Telephone • Boston Cream Pie • Swan Boats • Fig Newtons
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Significance System -->
+    <section class="content-section" style="background: #f9fafb;">
+        <div class="container">
+            <div class="section-header">
+                <h2>🎯 Significance Through Exploration</h2>
+                <p>Every discovery you make is earned through genuine exploration - no luck, no artificial scarcity</p>
+            </div>
+
+            <div style="max-width: 1000px; margin: 0 auto;">
+                <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,1,0.1); text-align: center; margin-bottom: 3rem;">
+                    <h3>Complete a Tour = Earn All Discoveries</h3>
+                    <p style="font-size: 1.1rem; color: #4b5563; margin: 1.5rem 0;">
+                        Visit Boston Public Garden tour? Get all 10 discoveries from that tour. Complete Freedom Trail? Earn all 10 discoveries from those stops. <strong>No randomness, no missing pieces, no frustration.</strong>
+                    </p>
+                    <div style="background: #e5f9f6; padding: 1.5rem; border-radius: 8px; margin-top: 2rem;">
+                        <strong>Significance levels reflect historical importance, not scarcity</strong>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                    <div style="background: #10b981; color: white; padding: 2rem; border-radius: 12px; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 1rem;">🏘️</div>
+                        <h3>Local Significance</h3>
+                        <p style="color: rgba(255,255,255,0.9);">Shaped neighborhoods<br>Community landmarks</p>
+                        <div style="margin-top: 1rem; font-size: 0.9rem;">
+                            <strong>Examples:</strong><br>Charles River, Newbury Street
+                        </div>
+                    </div>
+
+                    <div style="background: #3b82f6; color: white; padding: 2rem; border-radius: 12px; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 1rem;">🏛️</div>
+                        <h3>City Significance</h3>
+                        <p style="color: rgba(255,255,255,0.9);">Transformed entire cities<br>Regional innovation</p>
+                        <div style="margin-top: 1rem; font-size: 0.9rem;">
+                            <strong>Examples:</strong><br>Boston Public Garden, Faneuil Hall
+                        </div>
+                    </div>
+
+                    <div style="background: #8b5cf6; color: white; padding: 2rem; border-radius: 12px; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 1rem;">🇺🇸</div>
+                        <h3>National Significance</h3>
+                        <p style="color: rgba(255,255,255,0.9);">Changed American history<br>National firsts</p>
+                        <div style="margin-top: 1rem; font-size: 0.9rem;">
+                            <strong>Examples:</strong><br>Boston Tea Party, First Subway
+                        </div>
+                    </div>
+
+                    <div style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); color: white; padding: 2rem; border-radius: 12px; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 1rem;">🌍</div>
+                        <h3>Global Significance</h3>
+                        <p style="color: rgba(255,255,255,0.9);">Influenced the world<br>Universal impact</p>
+                        <div style="margin-top: 1rem; font-size: 0.9rem;">
+                            <strong>Examples:</strong><br>Telephone, First Anesthesia
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+                    <h3>How You Earn Discoveries</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem; text-align: left;">
+                        <div>
+                            <h4 style="color: #374151; margin-bottom: 0.5rem;">🚶‍♂️ Complete Tour Stops</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Visit each location, experience the content, take your photos - automatically earn that discovery.</p>
+                        </div>
+                        <div>
+                            <h4 style="color: #374151; margin-bottom: 0.5rem;">📸 Personal Documentation</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">1-3 photos with your chosen thumbnail, optional captions, and personal memory sentence.</p>
+                        </div>
+                        <div>
+                            <h4 style="color: #374151; margin-bottom: 0.5rem;">🏆 Thematic Collections</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Complete related discoveries across tours to unlock achievement badges and recognition.</p>
+                        </div>
+                        <div>
+                            <h4 style="color: #374151; margin-bottom: 0.5rem;">🌍 Cross-City Adventures</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Travel to other cities to complete global collections like "Founding Fathers" or "Medical Breakthroughs."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boston Discovery Showcase -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>🏛️ Your Boston Exploration Journal</h2>
+                <p>Sample discoveries from America's most walkable city - complete with personal photos and memories</p>
+            </div>
+
+            <!-- Personal Discovery Examples -->
+            <div style="margin-bottom: 4rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem; color: #6366f1;">👤 People Discoveries</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem;">
+
+                    <!-- Paul Revere Discovery -->
+                    <div class="discovery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 3px solid #3b82f6;">
+                        <div style="background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%); color: white; padding: 1rem;">
+                            <h4>Paul Revere</h4>
+                            <p style="color: rgba(255,255,255,0.8);">#347 collected • 2025-11-05 • Feeling amazed</p>
+                            <div style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem; margin-top: 0.5rem; display: inline-block;">National Significance</div>
+                        </div>
+                        <div style="padding: 1.5rem;">
+                            <div style="background: #f3f4f6; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                                📸 Photo 1/2: [Revere House exterior] ⭐<br>
+                                <em>"The oldest building in downtown Boston!"</em><br><br>
+                                📸 Photo 2/2: [Close-up of historical plaque]<br>
+                                <em>"Look at all the detail about his midnight ride"</em>
+                            </div>
+                            <p style="background: #e5f3ff; padding: 1rem; border-radius: 8px; color: #1e40af; font-style: italic;">
+                                "Had no idea he was also a successful silversmith and businessman - the midnight ride was just one night of an amazing life"
+                            </p>
+                            <div style="font-size: 0.8rem; color: #6b7280; margin-top: 0.75rem;">
+                                <strong>Categories:</strong> Revolutionary Heroes • Boston Originals • Colonial Era
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ben Franklin Discovery -->
+                    <div class="discovery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 3px solid #fbbf24;">
+                        <div style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); color: white; padding: 1rem;">
+                            <h4>Benjamin Franklin</h4>
+                            <p style="color: rgba(255,255,255,0.8);">#89 collected • 2025-11-05 • Feeling inspired</p>
+                            <div style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem; margin-top: 0.5rem; display: inline-block;">Global Significance</div>
+                        </div>
+                        <div style="padding: 1.5rem;">
+                            <div style="background: #f3f4f6; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                                📸 Photo 1/3: [Franklin statue at Boston Latin] ⭐<br>
+                                <em>"The statue in the school courtyard"</em><br><br>
+                                📸 Photo 2/3: [Close-up of statue inscription]<br>
+                                📸 Photo 3/3: [Boston Latin School building]
+                            </div>
+                            <p style="background: #fef3c7; padding: 1rem; border-radius: 8px; color: #92400e; font-style: italic;">
+                                "Incredible that he went to Boston Latin - makes me so proud of this city's schools and what they can produce"
+                            </p>
+                            <div style="font-size: 0.8rem; color: #6b7280; margin-top: 0.75rem;">
+                                <strong>Categories:</strong> Founding Fathers • Great Inventors • Boston Latin Alumni • Global Impact
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alexander Graham Bell Discovery -->
+                    <div class="discovery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 3px solid #8b5cf6;">
+                        <div style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); color: white; padding: 1rem;">
+                            <h4>Alexander Graham Bell</h4>
+                            <p style="color: rgba(255,255,255,0.8);">#156 collected • 2025-11-05 • Feeling grateful</p>
+                            <div style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem; margin-top: 0.5rem; display: inline-block;">Global Significance</div>
+                        </div>
+                        <div style="padding: 1.5rem;">
+                            <div style="background: #f3f4f6; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                                📸 Photo 1/1: [Historical marker on Exeter Place] ⭐<br>
+                                <em>"Hidden gem - most people walk right past this!"</em>
+                            </div>
+                            <p style="background: #f3e8ff; padding: 1rem; border-radius: 8px; color: #6b21a8; font-style: italic;">
+                                "Can't imagine life without phones - this quiet Boston street changed everything about human communication"
+                            </p>
+                            <div style="font-size: 0.8rem; color: #6b7280; margin-top: 0.75rem;">
+                                <strong>Categories:</strong> Great Inventors • Communication Revolution • Boston Originals • Global Impact
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Places & Cultural Experiences -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 4rem;">
+                <!-- Places Discovery -->
+                <div>
+                    <h3 style="text-align: center; margin-bottom: 2rem; color: #10b981;">📍 Places & Experiences</h3>
+                    <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                        <div style="display: grid; gap: 1.5rem;">
+                            <div style="display: flex; justify-content: between; align-items: start; padding: 1rem; background: #f9fafb; border-radius: 8px; border-left: 4px solid #10b981;">
+                                <div style="flex-grow: 1;">
+                                    <strong>Boston Public Garden</strong><br>
+                                    <span style="color: #6b7280; font-size: 0.9rem;">#2,847 collected • City Significance</span><br>
+                                    <em style="color: #059669;">"America's first public botanical garden - the swan boats made my day!"</em>
+                                </div>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: start; padding: 1rem; background: #f9fafb; border-radius: 8px; border-left: 4px solid #10b981;">
+                                <div style="flex-grow: 1;">
+                                    <strong>Faneuil Hall</strong><br>
+                                    <span style="color: #6b7280; font-size: 0.9rem;">#1,456 collected • National Significance</span><br>
+                                    <em style="color: #059669;">"The Cradle of Liberty - you can feel the history in those walls"</em>
+                                </div>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: start; padding: 1rem; background: #f9fafb; border-radius: 8px; border-left: 4px solid #f59e0b;">
+                                <div style="flex-grow: 1;">
+                                    <strong>Chinatown Dim Sum</strong><br>
+                                    <span style="color: #6b7280; font-size: 0.9rem;">#892 collected • Local Significance</span><br>
+                                    <em style="color: #d97706;">"Authentic har gow at Golden Dragon - my grandmother would love this place"</em>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events & Things -->
+                <div>
+                    <h3 style="text-align: center; margin-bottom: 2rem; color: #f59e0b;">📅 Events & Things</h3>
+                    <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                        <div style="display: grid; gap: 1.5rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: start; padding: 1rem; background: #f9fafb; border-radius: 8px; border-left: 4px solid #ef4444;">
+                                <div style="flex-grow: 1;">
+                                    <strong>Boston Tea Party</strong><br>
+                                    <span style="color: #6b7280; font-size: 0.9rem;">#1,204 collected • National Significance</span><br>
+                                    <em style="color: #dc2626;">"Those colonists had serious courage - taxation without representation!"</em>
+                                </div>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: start; padding: 1rem; background: #f9fafb; border-radius: 8px; border-left: 4px solid #ef4444;">
+                                <div style="flex-grow: 1;">
+                                    <strong>First Public Anesthesia</strong><br>
+                                    <span style="color: #6b7280; font-size: 0.9rem;">#67 collected • Global Significance</span><br>
+                                    <em style="color: #dc2626;">"Surgery without screaming - can't imagine how terrifying it was before"</em>
+                                </div>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: start; padding: 1rem; background: #f9fafb; border-radius: 8px; border-left: 4px solid #ef4444;">
+                                <div style="flex-grow: 1;">
+                                    <strong>The Telephone</strong><br>
+                                    <span style="color: #6b7280; font-size: 0.9rem;">#234 collected • Global Significance</span><br>
+                                    <em style="color: #dc2626;">"First successful call happened right here - hello, world!"</em>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cross-City Collections -->
+    <section class="content-section" style="background: #f9fafb;">
+        <div class="container">
+            <div class="section-header">
+                <h2>🌍 Cross-City Collection Challenges</h2>
+                <p>Build collections that span multiple cities - the ultimate motivation to explore worldwide</p>
+            </div>
+
+            <div style="max-width: 1000px; margin: 0 auto;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+
+                    <!-- Founding Fathers Collection -->
+                    <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 3px solid #dc2626;">
+                        <div style="text-align: center; margin-bottom: 1rem;">
+                            <div style="font-size: 3rem; margin-bottom: 0.5rem;">🇺🇸</div>
+                            <h3>Founding Fathers Collection</h3>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Collect all the key figures of American independence</p>
+                        </div>
+                        <div style="background: #f9fafb; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>✅ Ben Franklin (Boston)</span>
+                                <span style="color: #fbbf24;">★</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>⬜ George Washington (NYC)</span>
+                                <span style="color: #fbbf24;">★</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>⬜ Thomas Jefferson (DC)</span>
+                                <span style="color: #fbbf24;">★</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>⬜ John Adams (Boston)</span>
+                                <span style="color: #3b82f6;">◆</span>
+                            </div>
+                        </div>
+                        <div style="background: #fef3c7; padding: 1rem; border-radius: 8px; text-align: center;">
+                            <strong>Reward:</strong> "Founding Father Historian" badge + 500 bonus points
+                        </div>
+                    </div>
+
+                    <!-- Great Inventions Collection -->
+                    <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 3px solid #7c3aed;">
+                        <div style="text-align: center; margin-bottom: 1rem;">
+                            <div style="font-size: 3rem; margin-bottom: 0.5rem;">💡</div>
+                            <h3>World-Changing Inventions</h3>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Innovations that transformed human civilization</p>
+                        </div>
+                        <div style="background: #f9fafb; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>✅ Telephone (Boston)</span>
+                                <span style="color: #fbbf24;">★</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>⬜ Light Bulb (NYC)</span>
+                                <span style="color: #fbbf24;">★</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>⬜ Internet (San Francisco)</span>
+                                <span style="color: #8b5cf6;">◆</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>⬜ Steam Engine (London)</span>
+                                <span style="color: #3b82f6;">◆</span>
+                            </div>
+                        </div>
+                        <div style="background: #ede9fe; padding: 1rem; border-radius: 8px; text-align: center;">
+                            <strong>Reward:</strong> "Innovation Master" badge + exclusive inventor AI chats
+                        </div>
+                    </div>
+
+                    <!-- World Capitals Collection -->
+                    <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 3px solid #059669;">
+                        <div style="text-align: center; margin-bottom: 1rem;">
+                            <div style="font-size: 3rem; margin-bottom: 0.5rem;">🏰</div>
+                            <h3>Global Capitals Collection</h3>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Government centers and seats of power worldwide</p>
+                        </div>
+                        <div style="background: #f9fafb; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>⬜ State House (Boston)</span>
+                                <span style="color: #6b7280;">●</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>⬜ White House (DC)</span>
+                                <span style="color: #fbbf24;">★</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>⬜ Westminster (London)</span>
+                                <span style="color: #3b82f6;">◆</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>⬜ Élysée Palace (Paris)</span>
+                                <span style="color: #8b5cf6;">◆</span>
+                            </div>
+                        </div>
+                        <div style="background: #d1fae5; padding: 1rem; border-radius: 8px; text-align: center;">
+                            <strong>Reward:</strong> "Global Citizen" badge + political history bonus content
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 3rem;">
+                    <h3>Collection Mechanics</h3>
+                    <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-top: 1rem;">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                            <div>
+                                <h4 style="color: #374151;">🎯 Completion Rewards</h4>
+                                <p style="color: #6b7280; font-size: 0.9rem;">Finish cross-city collections to unlock exclusive badges, bonus points, and special AI conversations.</p>
+                            </div>
+                            <div>
+                                <h4 style="color: #374151;">✈️ Travel Motivation</h4>
+                                <p style="color: #6b7280; font-size: 0.9rem;">Missing cards from other cities naturally encourage exploration and travel planning.</p>
+                            </div>
+                            <div>
+                                <h4 style="color: #374151;">🏆 Social Status</h4>
+                                <p style="color: #6b7280; font-size: 0.9rem;">Completed collections display prominently on profiles and unlock social features.</p>
+                            </div>
+                            <div>
+                                <h4 style="color: #374151;">🔄 Seasonal Updates</h4>
+                                <p style="color: #6b7280; font-size: 0.9rem;">New cross-city collections launched quarterly with themes like "Nobel Prize Winners" or "Olympic Host Cities."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Strategy -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Building Your Collection</h2>
+                <p>Tips and strategies for maximizing your collectible discoveries</p>
+            </div>
+
+            <div style="max-width: 1000px; margin: 0 auto;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+                    <div>
+                        <h3>🎯 Discovery Tips</h3>
+                        <ul style="font-size: 1rem; line-height: 1.7; color: #4b5563;">
+                            <li><strong>Golden Hour Photography:</strong> Some rare cards only appear in specific lighting conditions</li>
+                            <li><strong>Seasonal Timing:</strong> Certain cards are only available during specific months or weather</li>
+                            <li><strong>Hidden Angles:</strong> Ultra rare cards may require finding specific photo perspectives</li>
+                            <li><strong>Multiple Visits:</strong> Return to locations - new cards occasionally become available</li>
+                            <li><strong>Tour Combinations:</strong> Some cards only unlock after completing multiple tours</li>
+                            <li><strong>Social Discoveries:</strong> Group tours can unlock special collaborative cards</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3>📊 Collection Management</h3>
+                        <ul style="font-size: 1rem; line-height: 1.7; color: #4b5563;">
+                            <li><strong>Storage Limits:</strong> Free tier: 5 cards, premium: 50-unlimited slots</li>
+                            <li><strong>Trading System:</strong> Quest Master+ subscribers can trade duplicates</li>
+                            <li><strong>Catalog View:</strong> Sort by rarity, category, city, or completion date</li>
+                            <li><strong>Wish Lists:</strong> Track missing cards and get notifications when available</li>
+                            <li><strong>Collection Stats:</strong> View completion percentages by city and category</li>
+                            <li><strong>Achievement Tracking:</strong> Monitor progress toward cross-city collections</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div style="margin-top: 3rem; background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); color: white; padding: 3rem; border-radius: 12px; text-align: center;">
+                    <h3>Why Collectibles Work</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                        <div>
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🧠</div>
+                            <h4>Proven Psychology</h4>
+                            <p style="color: rgba(255,255,255,0.9);">Baseball card mechanics have motivated collectors for over 100 years</p>
+                        </div>
+                        <div>
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🏆</div>
+                            <h4>Achievement Drive</h4>
+                            <p style="color: rgba(255,255,255,0.9);">Completion percentages and rare finds create genuine accomplishment</p>
+                        </div>
+                        <div>
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">👥</div>
+                            <h4>Social Connection</h4>
+                            <p style="color: rgba(255,255,255,0.9);">Trading and sharing discoveries builds community</p>
+                        </div>
+                        <div>
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">✈️</div>
+                            <h4>Travel Motivation</h4>
+                            <p style="color: rgba(255,255,255,0.9);">Cross-city collections naturally encourage exploration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Start Building Your Collection Today</h2>
+                <p>Discover your first collectible cards in the Boston Public Garden - available now</p>
+                <div class="cta-buttons">
+                    <a href="tour-boston-public-garden.html" class="btn btn-primary btn-large">Start Collecting</a>
+                    <a href="tours.html" class="btn btn-secondary btn-large">Explore All Cities</a>
+                </div>
+                <div class="cta-note">
+                    <p>🎯 5 cards in first tour • 🆓 Free tier includes collection • 🏆 Rare cards waiting to be discovered</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🏛️ CityQuest</h3>
+                    <p>AI-powered urban discovery platform transforming how people explore and learn about cities.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="tours.html">Cities & Tours</a></li>
+                        <li><a href="collectibles.html">Collectibles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Beta Community</a></li>
+                        <li><a href="#">Boston Meetups</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CityQuest. All rights reserved. Made with ❤️ in Boston.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - CityQuest</title>
+    <meta name="description" content="Get beta access to CityQuest, partner with us, or join our community. Start your urban discovery journey today.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🏛️ CityQuest</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="how-it-works.html" class="nav-link">How It Works</a></li>
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Get Started with CityQuest</h1>
+            <p>Join our beta community, partner with us, or simply say hello</p>
+        </div>
+    </header>
+
+    <!-- Contact Options -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>How Can We Help You?</h2>
+                <p>Choose the option that best fits your needs</p>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🚀</div>
+                    <h3>Beta Access</h3>
+                    <p>Join our community of early adopters and help shape the future of urban exploration.</p>
+                    <a href="#beta-form" class="btn btn-primary">Get Beta Access</a>
+                </div>
+
+                <div class="content-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🏢</div>
+                    <h3>Corporate Partnerships</h3>
+                    <p>Team building, educational institutions, and tourism board collaborations.</p>
+                    <a href="#contact-form" class="btn btn-primary">Partner With Us</a>
+                </div>
+
+                <div class="content-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
+                    <h3>Content Collaboration</h3>
+                    <p>Local historians, educators, and cultural experts - help us build accurate content.</p>
+                    <a href="#contact-form" class="btn btn-primary">Collaborate</a>
+                </div>
+
+                <div class="content-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">💬</div>
+                    <h3>General Inquiries</h3>
+                    <p>Questions about features, pricing, or just want to share feedback? We'd love to hear from you.</p>
+                    <a href="#contact-form" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beta Access Form -->
+    <section class="content-section" style="background: #f9fafb;" id="beta-form">
+        <div class="container">
+            <div class="section-header">
+                <h2>🚀 Join the CityQuest Beta Community</h2>
+                <p>Be among the first to experience AI-powered urban discovery</p>
+            </div>
+
+            <div class="contact-form">
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <h3>What You'll Get</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                        <div>
+                            <div style="color: #10b981; font-size: 1.5rem;">✓</div>
+                            <p style="font-size: 0.9rem;">Early access to all features</p>
+                        </div>
+                        <div>
+                            <div style="color: #10b981; font-size: 1.5rem;">✓</div>
+                            <p style="font-size: 0.9rem;">Direct feedback to founder</p>
+                        </div>
+                        <div>
+                            <div style="color: #10b981; font-size: 1.5rem;">✓</div>
+                            <p style="font-size: 0.9rem;">Exclusive beta-only content</p>
+                        </div>
+                        <div>
+                            <div style="color: #10b981; font-size: 1.5rem;">✓</div>
+                            <p style="font-size: 0.9rem;">Lifetime discount benefits</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="betaForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">City/Location</label>
+                        <input type="text" id="location" name="location" placeholder="Boston, MA">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="plan">Interested In</label>
+                        <select id="plan" name="plan">
+                            <option value="">Select an option</option>
+                            <option value="Free Explorer">Free Explorer - Try it out</option>
+                            <option value="City Explorer">City Explorer - $10/year</option>
+                            <option value="Quest Master">Quest Master - $5/month</option>
+                            <option value="Global Collector">Global Collector - $10/month</option>
+                            <option value="Corporate">Corporate/Group Plans</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="interests">What interests you most about CityQuest? *</label>
+                        <textarea id="interests" name="interests" required placeholder="Historical education, gamification, AI conversations, social features, travel motivation, etc."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experience">Previous experience with walking tours or educational apps?</label>
+                        <textarea id="experience" name="experience" placeholder="Tell us about any similar experiences you've had"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" required>
+                            I agree to receive beta updates and early access information
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem;">Join Beta Community</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- General Contact Form -->
+    <section class="content-section" id="contact-form">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="form-group">
+                            <label for="contactName">Name *</label>
+                            <input type="text" id="contactName" name="contactName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactEmail">Email *</label>
+                            <input type="email" id="contactEmail" name="contactEmail" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a topic</option>
+                            <option value="Corporate Partnership">Corporate Partnership</option>
+                            <option value="Educational Institution">Educational Institution</option>
+                            <option value="Tourism Board">Tourism Board Partnership</option>
+                            <option value="Content Collaboration">Content Collaboration</option>
+                            <option value="Technical Partnership">Technical Partnership</option>
+                            <option value="Media Inquiry">Media Inquiry</option>
+                            <option value="General Question">General Question</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="organization">Organization/Company</label>
+                        <input type="text" id="organization" name="organization" placeholder="Optional">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="Tell us about your inquiry, partnership idea, or feedback"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct Contact Info -->
+    <section class="content-section" style="background: #f9fafb;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Other Ways to Connect</h2>
+                <p>Direct contact information and community channels</p>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">📧</div>
+                    <h3>Email</h3>
+                    <p style="margin-bottom: 1rem;">Direct line to the founder</p>
+                    <a href="mailto:hello@cityquest.ai" style="color: #6366f1; font-weight: 600;">hello@cityquest.ai</a>
+                </div>
+
+                <div class="content-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">👥</div>
+                    <h3>Boston Meetups</h3>
+                    <p style="margin-bottom: 1rem;">Join our in-person community</p>
+                    <div style="font-size: 0.9rem; color: #6b7280;">
+                        <strong>Best of Boston:</strong> 200+ history enthusiasts<br>
+                        <strong>Boston Karaoke:</strong> 1,000+ social members
+                    </div>
+                </div>
+
+                <div class="content-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">💼</div>
+                    <h3>Partnership Inquiries</h3>
+                    <p style="margin-bottom: 1rem;">Tourism boards, corporations, schools</p>
+                    <a href="mailto:partnerships@cityquest.ai" style="color: #6366f1; font-weight: 600;">partnerships@cityquest.ai</a>
+                </div>
+
+                <div class="content-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🛠️</div>
+                    <h3>Technical Support</h3>
+                    <p style="margin-bottom: 1rem;">Beta testing and technical issues</p>
+                    <a href="mailto:support@cityquest.ai" style="color: #6366f1; font-weight: 600;">support@cityquest.ai</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item" style="margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 8px; border-left: 4px solid #6366f1;">
+                    <h3>How do I get beta access?</h3>
+                    <p>Simply fill out the beta form above! We'll send you early access within 24-48 hours along with instructions for getting started with the Boston Public Garden tour.</p>
+                </div>
+
+                <div class="faq-item" style="margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 8px; border-left: 4px solid #6366f1;">
+                    <h3>Is the beta completely free?</h3>
+                    <p>Yes! Beta testers get full access to all premium features while we're in development. This includes AI conversations, unlimited quests, and collectible cards.</p>
+                </div>
+
+                <div class="faq-item" style="margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 8px; border-left: 4px solid #6366f1;">
+                    <h3>What cities will be available at launch?</h3>
+                    <p>We're starting with Boston and planning to expand to NYC, San Francisco, Washington DC, Chicago, LA, Seattle, and Philadelphia based on beta feedback and demand.</p>
+                </div>
+
+                <div class="faq-item" style="margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 8px; border-left: 4px solid #6366f1;">
+                    <h3>Can I suggest content or locations?</h3>
+                    <p>Absolutely! Beta testers are encouraged to suggest new locations, historical content corrections, and feature ideas. Your feedback directly shapes the platform's development.</p>
+                </div>
+
+                <div class="faq-item" style="margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 8px; border-left: 4px solid #6366f1;">
+                    <h3>How do corporate partnerships work?</h3>
+                    <p>We offer custom team-building experiences ($25-50/participant), educational institution licensing, and tourism board partnerships ($50K-200K). Contact us for a tailored proposal.</p>
+                </div>
+
+                <div class="faq-item" style="margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 8px; border-left: 4px solid #6366f1;">
+                    <h3>When will the full platform launch?</h3>
+                    <p>We're planning a public launch in Q2 2025, with the Boston area fully featured. Additional cities will roll out throughout 2025 based on beta testing results and community demand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Response Expectations -->
+    <section class="content-section" style="background: #f9fafb;">
+        <div class="container">
+            <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <h2>What to Expect</h2>
+                <div style="background: white; padding: 2rem; border-radius: 12px; margin-top: 2rem;">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 2rem;">
+                        <div>
+                            <div style="font-size: 2rem; color: #10b981; margin-bottom: 0.5rem;">⚡</div>
+                            <h4>Quick Response</h4>
+                            <p style="font-size: 0.9rem; color: #6b7280;">Beta access: 24-48 hours<br>General inquiries: 2-3 days</p>
+                        </div>
+
+                        <div>
+                            <div style="font-size: 2rem; color: #6366f1; margin-bottom: 0.5rem;">👨‍💼</div>
+                            <h4>Founder Direct</h4>
+                            <p style="font-size: 0.9rem; color: #6b7280;">Personal responses from<br>the CityQuest founder</p>
+                        </div>
+
+                        <div>
+                            <div style="font-size: 2rem; color: #f59e0b; margin-bottom: 0.5rem;">🤝</div>
+                            <h4>Partnership Focus</h4>
+                            <p style="font-size: 0.9rem; color: #6b7280;">Serious about building<br>long-term relationships</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Urban Exploration?</h2>
+                <p>Join our community of early adopters and help shape the future of city discovery</p>
+                <div class="cta-buttons">
+                    <a href="#beta-form" class="btn btn-primary btn-large">Get Beta Access</a>
+                    <a href="about.html" class="btn btn-secondary btn-large">Learn Our Story</a>
+                </div>
+                <div class="cta-note">
+                    <p>🚀 Join 1,200+ community members • 📍 Start with Boston • 🎯 Shape the platform</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🏛️ CityQuest</h3>
+                    <p>AI-powered urban discovery platform transforming how people explore and learn about cities.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="#">Boston Tours</a></li>
+                        <li><a href="#">Coming Soon</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Beta Community</a></li>
+                        <li><a href="#">Boston Meetups</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CityQuest. All rights reserved. Made with ❤️ in Boston.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

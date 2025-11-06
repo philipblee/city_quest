@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston Public Garden Tour - CityQuest</title>
+    <meta name="description" content="Explore Boston Public Garden through 10 historic stops. Literary landmarks, swan boats, and Victorian elegance in America's first public garden.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🏛️ CityQuest</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="tours.html" class="nav-link">Cities & Tours</a></li>
+                <li><a href="collectibles.html" class="nav-link">Collectibles</a></li>
+                <li><a href="how-it-works.html" class="nav-link">How It Works</a></li>
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tour Header -->
+    <section style="background: linear-gradient(135deg, #059669 0%, #047857 100%); color: white; padding: 120px 0 60px;">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <div style="display: inline-block; background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; border-radius: 20px; margin-bottom: 1rem;">
+                    <span>🚀 <strong>LIVE NOW</strong> - Ready to explore</span>
+                </div>
+                <h1 style="font-size: 3rem; margin-bottom: 1rem;">Boston Public Garden Walking Tour</h1>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem; color: rgba(255,255,255,0.9);">
+                    Literary landmarks, swan boats, and Victorian elegance in America's first public garden
+                </p>
+
+                <div style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: bold;">35</div>
+                        <div style="font-size: 0.9rem; color: rgba(255,255,255,0.8);">minutes</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: bold;">1.2</div>
+                        <div style="font-size: 0.9rem; color: rgba(255,255,255,0.8);">miles</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: bold;">10</div>
+                        <div style="font-size: 0.9rem; color: rgba(255,255,255,0.8);">stops</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: bold;">🥾</div>
+                        <div style="font-size: 0.9rem; color: rgba(255,255,255,0.8);">Easy walking</div>
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: center; gap: 1rem;">
+                    <a href="#tour-stops" class="btn btn-primary btn-large">View Tour Details</a>
+                    <a href="contact.html" class="btn btn-secondary btn-large">Start Tour Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div style="max-width: 1000px; margin: 0 auto;">
+                <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: start;">
+                    <div>
+                        <h2 style="margin-bottom: 1rem;">About This Tour</h2>
+                        <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: 1.5rem; color: #4b5563;">
+                            Step into America's first public garden, where literary classics come to life and Victorian elegance meets modern Boston. This carefully crafted 10-stop journey takes you through the most significant landmarks of the Boston Public Garden, from the beloved Make Way for Ducklings statues to the historic Swan Boats.
+                        </p>
+                        <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: 1.5rem; color: #4b5563;">
+                            You'll discover the garden's role in children's literature, its innovative landscape design, and its importance as Boston's green heart. Each stop includes photo verification, historical context, and the opportunity to chat with AI historical figures who shaped this remarkable space.
+                        </p>
+
+                        <h3 style="margin-bottom: 1rem;">What You'll Experience</h3>
+                        <ul style="font-size: 1rem; line-height: 1.7; color: #4b5563;">
+                            <li><strong>Literary Legacy:</strong> Explore locations from beloved children's books</li>
+                            <li><strong>Victorian Design:</strong> Understand the garden's innovative landscape architecture</li>
+                            <li><strong>Swan Boat History:</strong> Learn about this unique Boston tradition</li>
+                            <li><strong>Botanical Beauty:</strong> Discover rare plants and seasonal displays</li>
+                            <li><strong>Public Art:</strong> Appreciate sculptures and memorials throughout the garden</li>
+                            <li><strong>AI Conversations:</strong> Chat with historical figures about the garden's evolution</li>
+                        </ul>
+                    </div>
+
+                    <div style="background: #f9fafb; padding: 2rem; border-radius: 12px;">
+                        <h3 style="margin-bottom: 1.5rem;">Tour Information</h3>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: #374151; margin-bottom: 0.5rem;">🗓️ Best Times to Visit</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Spring (April-May) for flowers<br>Summer (June-Aug) for Swan Boats<br>Fall (Sept-Oct) for foliage</p>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: #374151; margin-bottom: 0.5rem;">📱 Requirements</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Smartphone with camera<br>GPS enabled<br>CityQuest account (free)</p>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: #374151; margin-bottom: 0.5rem;">♿ Accessibility</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">Paved walkways throughout<br>Wheelchair accessible<br>Rest areas available</p>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: #374151; margin-bottom: 0.5rem;">🎯 Difficulty Level</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;"><strong>Beginner friendly</strong><br>Flat terrain, short distances<br>Suitable for all ages</p>
+                        </div>
+
+                        <div>
+                            <h4 style="color: #374151; margin-bottom: 0.5rem;">🏆 Collectible Cards</h4>
+                            <p style="color: #6b7280; font-size: 0.9rem;">5 cards available to discover<br>Including rare "Swan Boat" card<br>Part of Boston collection series</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Stops -->
+    <section class="content-section" style="background: #f9fafb;" id="tour-stops">
+        <div class="container">
+            <div class="section-header">
+                <h2>Your 10-Stop Journey</h2>
+                <p>Each stop includes historical context, photo verification, and collectible discoveries</p>
+            </div>
+
+            <div style="max-width: 1000px; margin: 0 auto;">
+                <!-- Stop 1 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #6366f1; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">1</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">Garden Entrance Gate</h3>
+                            <span style="background: #e5e7eb; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem; color: #374151;">📍 Start Point</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">Welcome to America's first public garden! Learn about the revolutionary concept of public green space and the Victorian era vision that created this urban oasis.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Entrance photo required</span>
+                            <span>🃏 "Public Garden History" card</span>
+                            <span>🤖 Chat with Frederick Law Olmsted</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stop 2 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #10b981; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">2</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">Make Way for Ducklings Statues</h3>
+                            <span style="background: #fbbf24; color: white; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem;">⭐ Featured Stop</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">Meet Mrs. Mallard and her eight ducklings! Discover how Robert McCloskey's beloved children's book became a Boston institution and why these bronze sculptures captivate visitors of all ages.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Photo with ducklings</span>
+                            <span>🃏 "Robert McCloskey" card</span>
+                            <span>🤖 Chat with Mrs. Mallard (AI)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stop 3 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #f59e0b; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">3</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">Swan Boats Dock</h3>
+                            <span style="background: #8b5cf6; color: white; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem;">🏆 Rare Card</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">Step aboard Boston's most charming tradition! The Paget family has operated these pedal-powered swan boats since 1877, making them the longest continuously operating amusement attraction in America.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Swan boat photo</span>
+                            <span>🃏 "Swan Boats" rare card</span>
+                            <span>🤖 Chat with Robert Paget (founder)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stop 4 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #ef4444; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">4</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">Lagoon & Small Island</h3>
+                            <span style="background: #e5e7eb; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem; color: #374151;">🌿 Nature</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">The garden's centerpiece lagoon was designed as both beauty and function. Learn about the innovative water management system and the wildlife that calls this urban wetland home.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Lagoon view photo</span>
+                            <span>🃏 "Garden Wildlife" card</span>
+                            <span>🤖 Chat with park naturalist</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stop 5 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #8b5cf6; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">5</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">George Washington Statue</h3>
+                            <span style="background: #e5e7eb; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem; color: #374151;">🗽 Monument</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">This majestic equestrian statue by Thomas Ball was the first public monument to George Washington on horseback. Discover the artistic and political significance of this Civil War-era memorial.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Washington statue photo</span>
+                            <span>🃏 "George Washington" card</span>
+                            <span>🤖 Chat with Thomas Ball (sculptor)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stop 6 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #06b6d4; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">6</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">Suspension Bridge</h3>
+                            <span style="background: #e5e7eb; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem; color: #374151;">🌉 Engineering</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">Cross the charming Victorian suspension bridge that connects the garden's main areas. This scaled-down version of grand suspension bridges showcases 19th-century engineering elegance.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Bridge crossing photo</span>
+                            <span>🃏 "Victorian Engineering" card</span>
+                            <span>🤖 Chat with bridge engineer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stop 7 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #84cc16; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">7</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">Botanical Gardens Area</h3>
+                            <span style="background: #16a34a; color: white; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem;">🌺 Seasonal</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">Discover the garden's role as a living laboratory. From tulips in spring to rare trees year-round, learn about the horticultural innovations that make this space special.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Botanical display photo</span>
+                            <span>🃏 "Garden Botany" card</span>
+                            <span>🤖 Chat with head gardener</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stop 8 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #f97316; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">8</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">Ether Monument</h3>
+                            <span style="background: #dc2626; color: white; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem;">⚕️ Medical History</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">Stand before the world's first monument to anesthesia. This unique memorial commemorates the medical breakthrough that revolutionized surgery and connects Boston to global healthcare history.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Ether monument photo</span>
+                            <span>🃏 "Medical Innovation" card</span>
+                            <span>🤖 Chat with Dr. William Morton</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stop 9 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #ec4899; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">9</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">Commonwealth Avenue Mall Entrance</h3>
+                            <span style="background: #e5e7eb; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem; color: #374151;">🛤️ Gateway</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">Explore the connection between the Public Garden and the grand Commonwealth Avenue Mall. Understand how these linked green spaces formed the blueprint for American urban parks.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Avenue entrance photo</span>
+                            <span>🃏 "Back Bay Planning" card</span>
+                            <span>🤖 Chat with Arthur Gilman (architect)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stop 10 -->
+                <div class="tour-stop" style="display: flex; margin-bottom: 3rem; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div style="background: #7c3aed; color: white; width: 100px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; flex-shrink: 0;">10</div>
+                    <div style="padding: 2rem; flex-grow: 1;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3 style="color: #374151;">Garden Reflection Point</h3>
+                            <span style="background: #059669; color: white; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.8rem;">🏁 Finish Line</span>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 1rem;">Complete your journey with panoramic views of the entire garden. Reflect on the stories you've discovered and the legacy of America's first public garden that continues to inspire cities worldwide.</p>
+                        <div style="display: flex; gap: 1rem; font-size: 0.9rem; color: #6b7280;">
+                            <span>📸 Completion selfie</span>
+                            <span>🃏 "Garden Legacy" card</span>
+                            <span>🏆 Tour completion certificate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Completion Rewards -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What You'll Earn</h2>
+                <p>Complete the tour to unlock rewards and build your collection</p>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); color: white; padding: 3rem; border-radius: 12px;">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+                        <div>
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">🃏</div>
+                            <h3>5 Collectible Cards</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Including one rare "Swan Boats" card</p>
+                        </div>
+
+                        <div>
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">🏆</div>
+                            <h3>Completion Certificate</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Digital certificate with photo gallery</p>
+                        </div>
+
+                        <div>
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">⭐</div>
+                            <h3>100 Points</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Towards premium subscription rewards</p>
+                        </div>
+
+                        <div>
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">🏅</div>
+                            <h3>Garden Explorer Badge</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Unlocks Boston Collection progress</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Getting Started -->
+    <section class="content-section" style="background: #f9fafb;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ready to Start Your Garden Adventure?</h2>
+                <p>Join thousands who have discovered Boston's hidden stories</p>
+            </div>
+
+            <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+                    <h3>Quick Start Guide</h3>
+                    <div style="text-align: left; margin: 2rem 0;">
+                        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <div style="background: #6366f1; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-weight: bold;">1</div>
+                            <span>Create free CityQuest account or sign in</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <div style="background: #6366f1; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-weight: bold;">2</div>
+                            <span>Enable GPS location services on your device</span>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <div style="background: #6366f1; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-weight: bold;">3</div>
+                            <span>Meet at the Public Garden entrance (Arlington St)</span>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <div style="background: #6366f1; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-weight: bold;">4</div>
+                            <span>Start tour and begin your historical adventure!</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-large">Start Tour Now</a>
+                    <a href="tours.html" class="btn btn-secondary btn-large">View All Tours</a>
+                </div>
+
+                <div style="margin-top: 2rem;">
+                    <p style="color: #6b7280; font-size: 0.9rem;">
+                        🆓 Free tier includes 1 tour per month •
+                        📱 Works on any smartphone •
+                        ⏱️ Start anytime during daylight hours
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Begin Your Boston Discovery Journey</h2>
+                <p>Experience the magic of AI-powered historical exploration in America's most walkable city</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-large">Start Garden Tour</a>
+                    <a href="pricing.html" class="btn btn-secondary btn-large">Unlock All Features</a>
+                </div>
+                <div class="cta-note">
+                    <p>🌟 Perfect for first-time users • 🚶‍♂️ Beginner-friendly difficulty • 📚 Rich historical content</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🏛️ CityQuest</h3>
+                    <p>AI-powered urban discovery platform transforming how people explore and learn about cities.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="tours.html">Cities & Tours</a></li>
+                        <li><a href="collectibles.html">Collectibles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Beta Community</a></li>
+                        <li><a href="#">Boston Meetups</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CityQuest. All rights reserved. Made with ❤️ in Boston.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
